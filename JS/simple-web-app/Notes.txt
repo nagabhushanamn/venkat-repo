@@ -1,0 +1,149 @@
+
+
+.js-lang
+
+--> scripting lang for web-pages in browser-envi
++
+--> server-side lang on Node.js
+--> Native Mobile appln
+--> command-line tools
+
+-------------------------------------------
+
+. JS-lang features
+
+--> FP / OOP
+--> dynamic 
+--> closures support
+--> single-threaded , better concurrency
+--> Non Blocking IO
+
+-------------------------------------------
+
+where/when i shud use .js-lang?
+
+on event, process outcome async
+
+
+-------------------------------------------
+
+How to run .js program ?
+
+
+ using .JS-engine 
+
+
+ browser-envi ( client )
+
+ chrome  ==> v8(c++)
+ firefox ==> rhino(java)
+ IE/Edge ==> chakra
+ safari  ==> Nitro
+ etc...
+
+ other envi ( desktop / server)
+
+ Node.js ==> v8
+ JVM     ==> rhino/nashorn
+ Adobe  
+ Apache CouchDB =>
+ MongoDB
+  ..
+
+//-------------------------------------------
+
+
+what .js-lang can do on HTML page in browser envi?
+
+using browser provided Web APIs can do any magic
+
+ provided Web APIs ==> impln based on w3c spec
+
+ e.g DOM,XHR,Timer API , HTML5 APIs
+
+using DOM API
+----------------
+ --> can create/reteive/update/delete HTML elements
+ --> can change element's text/html content
+ --> can change element's attributes/props
+ --> can change element's style
+ --> can listen events
+ ....
+
+Using XHR
+----------------
+ --> can communicate with api-server async,update resp in existig page ( AJAX )
+
+Using Timer API
+---------------
+ --> can run timer actions
+
+HTML5 APIs
+
+  --> https://developer.mozilla.org/en/docs/Web/Guide/HTML/HTML5
+
+
+  
+
+problems/limitations with plain JS with Web APIs
+-----------------------------------------------
+
+-> browser compa...
+-> performance issues ( e.g DOM query & manipulations)
+-> memory management  ( e.g cleaning un-used elements, un-registering event handlers..)
+-> data-biding is manual
+-> code oraganization difficult
+
+etc...
+
+
+
+using third-party .js-lib and F.Ws
+
+
+-->  jquery
+
+
+      limitations witj jquery
+
+      -> close to DOM
+      
+
+    ....
+
+
+
+  Frameworks based on MVC and MVVM
+
+
+  ->     Angular 1.x
+  ->     Knockout.js 
+  ->     EmberJs..
+
+  .....
+
+  
+  ==> DOJO
+  ==> sencha => EXt JS
+
+
+
+
+
+  w3c   ==> Web component spec ( draft )
+
+based on
+
+   --> React
+   --> Angular
+   --> Vue
+
+   --> PolymerJS
+   ....
+
+
+
+
+
+
+

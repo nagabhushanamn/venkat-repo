@@ -1,0 +1,17 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev-run":"./node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "venkat-greet": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  }
+}

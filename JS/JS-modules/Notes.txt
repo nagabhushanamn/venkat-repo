@@ -1,0 +1,65 @@
+
+
+
+
+problem in .js dev
+
+--> global naming collisions
+
+     pattern :  IIFE / self executable functions
+
+--> loading dependency modules in order..
+
+----------------------------------------------------
+
+
+from third parties , module standards & loaders
+
+
+ --> AMD ( Async Module Definition )
+ --> commonJS
+ --> UMD
+
+ ....
+
+
+ from ECMAScript spec
+
+
+ --> ES6 modules
+
+----------------------------------------------------
+
+
+ commonJS standard
+
+
+ --> every .js file is a module
+ --> every var/func in .js file is private to that module
+ --> to export any member, use "module.exports"
+ --> to import any member, use "require"
+ --> we group related modules into packages
+
+
+ Node.js runtime already implemented this standard
+
+ ----------------------------------------------------
+
+
+ ES6 standard
+
+
+ --> every .js file is a module
+ --> every var/func in .js file is private to that module
+ --> to export any member, use "export"
+ --> to import any member, use "import"
+ --> we group related modules into packages
+
+
+
+
+ 
+
+
+
+  

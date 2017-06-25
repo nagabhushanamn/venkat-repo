@@ -1,0 +1,82 @@
+
+
+
+
+HTMLInputElement  -> component class
+
+<input/>          -> comp instance-1 
+<input/>          -> comp instance-2 
+
+//----------------------------------------
+
+<div>
+    <input type="password" />
+</div>
+
+component
+
+    -> state : internal-data
+    -> props : Input from parent-component
+
+
+//----------------------------------------
+
+
+e.g Counter App
+
+
+    App
+
+      -> HitButton
+      -> Display
+
+//-------------------------------------------      
+
+
+
+
+   
+
+   e.g FB-App
+
+
+   ref : https://facebook.github.io/react/docs/thinking-in-react.html
+
+
+   data-Model:
+
+     story:{name:'',body:''}
+
+
+
+   step-1 :  Step 1: Break The UI Into A Component Hierarchy
+
+
+    e.g
+
+        -StoryApp
+
+            -StoryForm
+            -StoryList
+                -Story
+
+
+   Step 2: Build A Static Version in React
+
+
+   Step 3: Identify The Minimal (but complete) Representation Of UI State
+
+
+        state : stories
+
+
+
+  Step 4: Identify The Minimal (but complete) Representation Of UI State
+
+        e.g
+
+        - at StoryApp
+
+
+   
+
