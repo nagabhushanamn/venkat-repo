@@ -1,0 +1,49 @@
+
+
+.js-lang
+
+  --> single-threaded lang
+  --> Non-Blocking IO
+
+  --------------------------------------------------
+
+
+  browser e.g chrome
+
+
+  1. JS-runtime/engine  : based on ECMAScript spec
+
+    a. single-call-stack ==> to execute contexts
+    b. heap       ==> to keep objects
+
+
+  2. browser APIs      : w3c standards
+
+     e.g DOM, XHR , Timer , HTML5 APIs....
+
+
+  3. Event/Callback/Message Queue
+
+  4. Event-Loop
+
+  ---------------------------------------------------
+
+  
+
+
+  Asyc Programming in .js-lang
+  -----------------------------
+
+  by default , on event , all handlers executes async
+
+
+  also using Async APIs
+
+
+  1. Promise API ( ES6 ) 
+  2. RxJS ( Reactive Extensions for JavaScript ) ( ES7 )
+
+
+
+ 
+    

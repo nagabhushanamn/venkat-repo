@@ -1,0 +1,20 @@
+
+
+// e.g
+
+1. counter App
+//----------------
+
+
+  1. state:
+  
+   - count
+
+
+  2. actions
+
+    INCREMENT => {type:'INCREMENT',value:1}
+    DECREMENT
+
+
+
